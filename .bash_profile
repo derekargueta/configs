@@ -1,6 +1,5 @@
 [[ -r ~/.bashrc ]] && . ~/.bashrc
 export PATH=/usr/local/bin:$PATH
-export PATH=/usr/local/bin:$PATH
 
 [[ -r ~/.osx ]] && . ~/.osx
 
