@@ -1,11 +1,22 @@
-set runtimepath+=~/.vim_runtime
+set number
+set cmdheight=2
+set showmatch
 
-source ~/.vim_runtime/vimrcs/basic.vim
-source ~/.vim_runtime/vimrcs/filetypes.vim
-source ~/.vim_runtime/vimrcs/plugins_config.vim
-source ~/.vim_runtime/vimrcs/extended.vim
+set expandtab
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
 
-try
-source ~/.vim_runtime/my_configs.vim
-catch
-endtry
+set ai
+set si
+set wrap
+
+syntax on
+
+set noerrorbells
+set hlsearch
+set incsearch
+set lazyredraw
+set ignorecase
+
+colorscheme molokai
