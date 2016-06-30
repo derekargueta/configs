@@ -15,6 +15,7 @@ brew install gradle
 brew install htop
 brew install lua
 brew install maven
+# brew install mercurial  # required for `brew install vim` and some open source projects
 brew install mongodb
 brew install mycli
 brew install mysql
@@ -36,7 +37,11 @@ brew install tor
 brew install wget
 brew install wifi-password
 brew install youtube-dl
-brew install vim
+
+# installing macvim requires XCode. Need to see if I can automate that
+#brew install vim
+##### Finish Vim setup #####
+# sudo mv /usr/bin/vim /usr/bin/vimsys
 
 ##### Install Node #####
 nvm install node
