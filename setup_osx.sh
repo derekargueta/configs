@@ -34,3 +34,4 @@ brew install tor
 brew install wget
 brew install wifi-password
 brew install youtube-dl
+brew install vim
