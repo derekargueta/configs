@@ -5,8 +5,10 @@
 brew install ant
 brew install avrdude
 brew install boost
+brew install cabal-install
 brew install docker
 brew install gcc
+brew install ghc
 brew install git
 brew install go
 brew install gradle
@@ -35,3 +37,10 @@ brew install wget
 brew install wifi-password
 brew install youtube-dl
 brew install vim
+
+##### Install Node #####
+nvm install node
+
+##### Install some python packages
+pip install pandas numpy scipy requests Django virtualenvwrapper
+pip3 install pandas numpy scipy requests Django virtualenvwrapper
