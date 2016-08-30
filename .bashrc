@@ -10,8 +10,6 @@ export NVM_DIR="/Users/derek/.nvm"
 ##### SSH Aliases #####
 alias ssh_byu="ssh dargueta@schizo.cs.byu.edu"
 alias ssh_me="ssh darguetap@75.126.24.80"
-alias ssh_domo="ssh ubuntu@54.164.123.185"
-alias ssh_lb="ssh root@104.236.178.86"
 
 ##### Other Aliases #####
 alias rebuild="source ~/.bashrc"
