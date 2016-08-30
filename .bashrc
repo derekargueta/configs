@@ -13,9 +13,6 @@ alias ssh_me="ssh darguetap@75.126.24.80"
 alias ssh_domo="ssh ubuntu@54.164.123.185"
 alias ssh_lb="ssh root@104.236.178.86"
 
-#### work ####
-alias watch_statsboard="python ~/code/Pinterest/pinboard/bin/watcher.py -s ~/code/statsboard dereka@devapp:~/code/statsboard --exclude-git"
-
 ##### Other Aliases #####
 alias rebuild="source ~/.bashrc"
 
