@@ -49,3 +49,9 @@ nvm install node
 ##### Install some python packages
 pip install pandas numpy scipy requests Django virtualenvwrapper
 pip3 install pandas numpy scipy requests Django virtualenvwrapper
+
+# Set up Go folder structure
+mkdir ~/go
+mkdir ~/go/bin
+mkdir ~/go/pkg
+mkdir ~/go/src
