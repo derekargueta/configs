@@ -55,3 +55,8 @@ mkdir ~/go
 mkdir ~/go/bin
 mkdir ~/go/pkg
 mkdir ~/go/src
+
+# Grab the Molokai colorscheme for Vim
+git clone https://github.com/tomasr/molokai.git
+mkdir -p ~/.vim/colors
+cp molokai/colors/molokai.vim ~/.vim/colors
