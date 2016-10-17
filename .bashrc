@@ -24,3 +24,5 @@ export PATH="$PATH:$HOME/bin"
 export PATH="$PATH:$HOME/go/bin"
 
 alias tmux="TERM=screen-256color-bce tmux"
+
+export EDITOR=vim
