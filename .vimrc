@@ -5,7 +5,7 @@ set showmatch
 "Set to auto read when a file is changed from the outside
 set autoread
 
-" :W sudo saves the file
+" :W sudo saves the file 
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
@@ -58,6 +58,14 @@ try
 catch
 endtry
 
+if &term =~ '^screen'
+    " tmux will send xterm-style keys when its xterm-keys option is on
+    execute "set <xUp>=\e[1;*A"
+    execute "set <xDown>=\e[1;*B"
+    execute "set <xRight>=\e[1;*C"
+    execute "set <xLeft>=\e[1;*D"
+endif
+
 " Delete trailing white space on save, useful for Python and CoffeeScript ;)
 func! DeleteTrailingWS()
     exe "normal mz"
@@ -71,3 +79,13 @@ autocmd BufWrite *.coffee :call DeleteTrailingWS()
 autocmd Filetype html setlocal ts=2 sts=2 sw=2
 autocmd Filetype javascript setlocal ts=2 sts=2 sw=2
 autocmd Filetype cpp setlocal ts=2 sts=2 sw=2
+autocmd Filetype c setlocal ts=2 sts=2 sw=2
+autocmd Filetype make setlocal noexpandtab " Makefiles only work with tabs, no spaces
+autocmd Filetype julia setlocal ts=2 sts=2 sw=2
+autocmd Filetype haskell setlocal ts=8 sts=4 sw=4
+autocmd Filetype lua setlocal ts=2 sts=2 sw=2
+
+autocmd filetype crontab setlocal nobackup nowritebackup
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
