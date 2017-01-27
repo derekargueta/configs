@@ -8,6 +8,9 @@ sudo apt-get install valgrind
 sudo apt-get install llvm clang-3.8
 sudo apt-get install gradle
 
+# libraries
+sudo apt-get install libssl-dev
+
 # languages
 sudo apt-get install lua5.2 lua5.3
 sudo apt-get install haskell-platform
