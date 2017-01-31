@@ -3,7 +3,6 @@
 
 ##### now dem homebrew packages #####
 brew install ant
-brew install avrdude
 brew install boost
 brew install cabal-install
 brew install docker
@@ -16,7 +15,6 @@ brew install htop
 brew install lua
 brew install maven
 # brew install mercurial  # required for `brew install vim` and some open source projects
-brew install mongodb
 brew install mycli
 brew install mysql
 brew install nginx
@@ -28,7 +26,7 @@ brew install python3
 brew install redis
 brew install rocksdb
 brew install rust
-brew install scala
+brew install shpotify
 brew install snappy
 brew install sqlite
 brew install thrift
