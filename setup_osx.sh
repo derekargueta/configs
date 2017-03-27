@@ -58,3 +58,12 @@ mkdir ~/go/src
 git clone https://github.com/tomasr/molokai.git
 mkdir -p ~/.vim/colors
 cp molokai/colors/molokai.vim ~/.vim/colors
+
+# Nginx vim highlighting
+# http://www.vim.org/scripts/script.php?script_id=1886
+mkdir -p ~/.vim
+mkdir p ~/.vim/syntax
+wget http://www.vim.org/scripts/download_script.php?src_id=19394
+mv download_script.php?src_id=19394 nginx.vim
+cd ..
+echo "au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/* if &ft == '' | setfiletype nginx | endif" >> filetype.vim
