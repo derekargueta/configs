@@ -5,7 +5,8 @@
 brew install ant
 brew install boost
 brew install cabal-install
-brew install docker
+# Don't brew install docker - use official download page https://docs.docker.com/engine/installation/
+#brew install docker
 brew install gcc
 brew install ghc
 brew install git
