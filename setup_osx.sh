@@ -2,7 +2,7 @@
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ##### now dem homebrew packages #####
-brew install ant
+#brew install ant
 brew install boost
 brew install cabal-install
 # Don't brew install docker - use official download page https://docs.docker.com/engine/installation/
@@ -14,7 +14,7 @@ brew install go
 brew install gradle
 brew install htop
 brew install lua
-brew install maven
+#brew install maven
 # brew install mercurial  # required for `brew install vim` and some open source projects
 brew install mycli
 brew install mysql
@@ -26,12 +26,12 @@ brew install python
 brew install python3
 brew install redis
 brew install rocksdb
-brew install rust
+#brew install rust  use rustup to install rust
 brew install shpotify
 brew install snappy
 brew install sqlite
 brew install thrift
-brew install tomcat
+#brew install tomcat
 brew install tor
 brew install wget
 brew install wifi-password
